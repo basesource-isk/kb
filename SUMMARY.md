@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [OSS Core](README.md)
+* [О Компании](o-kompanii.md)
