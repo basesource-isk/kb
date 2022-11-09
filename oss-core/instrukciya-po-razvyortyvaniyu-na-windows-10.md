@@ -2,6 +2,8 @@
 
 Установить Docker для Windows [https://www.docker.com/](https://www.docker.com/)
 
+Запустить Docker на компьютере
+
 Клонировать репозиторий с приложением
 
 ```
@@ -23,6 +25,6 @@ docker-compose up
 Приложение появится в браузере на странице
 
 ```
-http://0.0.0.0:8000
+http://localhost:8000
 ```
 
