@@ -1,2 +1,28 @@
 # Инструкция по развёртыванию на Windows 10
 
+Установить Docker для Windows [https://www.docker.com/](https://www.docker.com/)
+
+Клонировать репозиторий с приложением
+
+```
+git clone https://github.com/basesource-isk/osscore.git
+```
+
+Перейти в директорию osscore
+
+```
+cd osscore
+```
+
+Запустить развёртывание
+
+```
+docker-compose up
+```
+
+Приложение появится в браузере на странице
+
+```
+http://0.0.0.0:8000
+```
+
