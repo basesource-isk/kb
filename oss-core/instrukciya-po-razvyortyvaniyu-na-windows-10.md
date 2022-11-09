@@ -22,9 +22,5 @@ cd osscore
 docker-compose up
 ```
 
-Приложение появится в браузере на странице
-
-```
-http://localhost:8000
-```
+Приложение появится в браузере на странице [http://localhost:8000](http://localhost:8000)
 

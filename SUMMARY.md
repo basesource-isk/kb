@@ -5,4 +5,4 @@
 ## ⚙ OSS Core
 
 * [Инструкция по развёртыванию на Windows 10](oss-core/instrukciya-po-razvyortyvaniyu-na-windows-10.md)
-* [Инструкция по развёртыванию на Linux CentOS 7](README.md)
+* [Инструкция по развёртыванию на Linux CentOS 7](<README (1).md>)
