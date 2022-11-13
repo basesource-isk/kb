@@ -1,16 +1,29 @@
 # Инструкция по развёртыванию на Linux CentOS 7
 
-Скачать docker-compose в каталог /usr/local/bin/
+Установить docker
 
 ```
-$ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo yum install -y yum-utils
 ```
 
-Сделать файл исполняемым и создаем симлинк
+```
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+```
 
 ```
-$ sudo chmod +x /usr/local/bin/docker-compose
-$ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+```
+
+Установить docker-compose
+
+```
+yum install -y docker-compose
+```
+
+Установить git
+
+```
+yum install -y git
 ```
 
 Клонировать репозиторий с приложением
