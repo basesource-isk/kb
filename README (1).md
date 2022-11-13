@@ -11,13 +11,19 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 ```
 
 ```
-sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 Установить docker-compose
 
 ```
 yum install -y docker-compose
+```
+
+Запустить docker
+
+```
+sudo systemctl start docker
 ```
 
 Установить git
@@ -47,6 +53,11 @@ docker-compose up
 Приложение появится в браузере на странице
 
 ```
-http://0.0.0.0:8000
+http://[ip-адрес]:8000
 ```
 
+Проверить работу можно загрузив в приложение файл, скачанный по ссылке ниже
+
+{% file src=".gitbook/assets/яндекс-расписания-api-тест.yml" %}
+
+Или просто нажав кнопку **Тест**
