@@ -4,22 +4,10 @@
 
 Запустить Docker на компьютере
 
-Клонировать репозиторий с приложением
-
-```
-git clone https://github.com/basesource-isk/osscore.git
-```
-
-Перейти в директорию osscore
-
-```
-cd osscore
-```
-
 Запустить развёртывание
 
 ```
-docker-compose up
+docker run -p 8000:8000 osscore/osscore
 ```
 
 Приложение появится в браузере на странице [http://localhost:8000](http://localhost:8000)
