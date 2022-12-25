@@ -5,7 +5,7 @@
 * Запустить развёртывание
 
 ```
-docker run -p 8000:8000 osscore/osscore:1.0
+docker run -p 8000:8000 osscore/osscore
 ```
 
 * Приложение появится в браузере на странице [http://localhost:8000](http://localhost:8000)
