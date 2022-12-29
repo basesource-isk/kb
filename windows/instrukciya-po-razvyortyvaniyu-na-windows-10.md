@@ -2,10 +2,23 @@
 
 * Установить Docker для Windows [https://www.docker.com/](https://www.docker.com/)
 * Запустить Docker на компьютере
-* Запустить развёртывание
+* Запустить терминал _Powershell_
+* Клонировать репозиторий с файлом _docker-compose.yml_
 
 ```
-docker run -p 8000:8000 osscore/osscore:1.0
+git clone https://github.com/basesource-isk/osscore-docker-compose-file.git
+```
+
+* Перейти в директорию _osscore-docker-compose-file_
+
+```
+cd osscore-docker-compose-file
+```
+
+* Запустить развёртывание командой `docker-compose up`
+
+```
+docker-compose up
 ```
 
 * Приложение появится в браузере на странице [http://localhost:8000](http://localhost:8000)
