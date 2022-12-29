@@ -14,6 +14,18 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 sudo yum install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
+* Установить _docker-compose_
+
+```
+yum install -y docker-compose
+```
+
+* Установить _git_ если не установлен
+
+```
+sudo yum install -y git
+```
+
 * Запустить docker
 
 ```
