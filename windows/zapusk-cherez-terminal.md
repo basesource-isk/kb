@@ -2,7 +2,6 @@
 
 Приложением можно пользоваться загружая файл с адресами проверок через терминал _<mark style="background-color:orange;">Powershell</mark>_. Для этого скопируйте функцию в терминал:
 
-````powershell
 ```powershell
 function upload_file {
     param (
@@ -28,7 +27,6 @@ function upload_file {
     Invoke-RestMethod 'http://localhost:8000/api-rest-api/' -Method POST -ContentType "multipart/form-data; boundary=`"$boundary`"" -Body $bodyLines
 }
 ```
-````
 
 И запустите указав в качестве параметра путь к файлу с текстом скрипта проверок:
 
