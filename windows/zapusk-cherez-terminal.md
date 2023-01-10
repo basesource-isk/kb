@@ -28,7 +28,7 @@ function upload_file {
 }
 ```
 
-И запустите указав в качестве параметра путь к файлу с текстом скрипта проверок:
+Запустите функцию, указав в качестве параметра путь к файлу с текстом скрипта проверок:
 
 <pre><code>upload_file "[<a data-footnote-ref href="#user-content-fn-1">Пример: C:/NewFolder/test.yml</a>]"
 </code></pre>
