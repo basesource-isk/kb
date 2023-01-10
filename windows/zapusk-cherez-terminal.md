@@ -1,6 +1,6 @@
 # Запуск через терминал
 
-Приложением можно пользоваться загружая файл с адресами проверок через терминал _<mark style="background-color:orange;">Powershell</mark>_. Для этого воспользуемся командой `Invoke-WebRequest`с параметром `-Infile`
+Приложением можно пользоваться загружая файл с адресами проверок через терминал _<mark style="background-color:orange;">Powershell</mark>_. Для этого скопируйте функцию в терминал:
 
 ````powershell
 ```powershell
@@ -29,3 +29,10 @@ function upload_file {
 }
 ```
 ````
+
+И запустите указав в качестве параметра путь к файлу с текстом скрипта проверок:
+
+<pre><code>upload_file "[<a data-footnote-ref href="#user-content-fn-1">Пример: C:/NewFolder/test.yml</a>]"
+</code></pre>
+
+[^1]: Здесь указывается абсолютный путь к файлу с расширением .yml с текстом скрипта проверок
