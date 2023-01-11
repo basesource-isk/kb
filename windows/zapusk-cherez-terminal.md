@@ -18,7 +18,7 @@ function upload_file {
         "Content-Disposition: form-data; name=`"Description`"$LF",
         "This is a file I'm uploading",
         "--$boundary",
-        "Content-Disposition: form-data; name=`"file`"; filename=`"file.json`"",
+        "Content-Disposition: form-data; name=`"file`"; filename=`"file.yml`"",
         "Content-Type: application/json$LF",
         $TheFileContent,
         "--$boundary--$LF"
