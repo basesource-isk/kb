@@ -52,7 +52,7 @@ sudo systemctl start docker
 sudo git clone https://github.com/d-poletavkin/osscore-otester-docker.git
 ```
 
-* Перейти в директорию _osscore-docker-compose-file_
+* Перейти в директорию osscore-otester-docker
 
 ```
 sudo cd osscore-otester-docker
