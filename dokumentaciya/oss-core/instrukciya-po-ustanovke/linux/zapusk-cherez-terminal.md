@@ -2,9 +2,11 @@
 
 Приложением можно пользоваться загружая файл с адресами проверок через терминал _<mark style="background-color:orange;">Bash</mark>_. Для этого воспользуемся командой `curl` с параметром `-F`
 
-<pre><code>curl -F "file=@<a data-footnote-ref href="#user-content-fn-1">tests/test.yml</a>" http://<a data-footnote-ref href="#user-content-fn-2">localhost</a>:8000/api-rest-api/
+<pre><code>curl -F "file=@[<a data-footnote-ref href="#user-content-fn-1">пример: C:/NewFolder/test.yml</a>]" http://<a data-footnote-ref href="#user-content-fn-2">localhost</a>:8000/api-rest-api/
 </code></pre>
 
-[^1]: Здесь указывается путь к файлу проверок
+
+
+[^1]: Здесь указывается абсолютный путь к файлу с расширением yml, который содержит скрипт проверок
 
 [^2]: Если команда запускается на машине с развёрнутым приложением, то здесь остаётся _localhost_, если же приложение развёрнуто на удалённой машине, то указывается действительный адрес развёрнутого приложения

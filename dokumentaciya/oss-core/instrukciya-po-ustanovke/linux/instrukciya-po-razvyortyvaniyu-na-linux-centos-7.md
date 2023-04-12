@@ -46,16 +46,16 @@ sudo yum install -y git
 sudo systemctl start docker
 ```
 
-* Клонировать репозиторий с файлом _docker-compose.yml_
+* Клонировать репозиторий с файлом _compose.yml_
 
 ```
-sudo git clone https://github.com/basesource-isk/osscore-docker-compose-file.git
+sudo git clone https://github.com/d-poletavkin/osscore-otester-docker.git
 ```
 
 * Перейти в директорию _osscore-docker-compose-file_
 
 ```
-sudo cd osscore-docker-compose-file
+sudo cd osscore-otester-docker
 ```
 
 * Запустить развёртывание командой `docker-compose up`
@@ -67,9 +67,9 @@ sudo docker-compose up
 * Приложение появится в браузере на странице
 
 ```
-http://[ip-адрес]:8000
+http://[ip-адрес]:4200
 ```
 
 Проверить работу можно нажав кнопку **Тест** или загрузив в приложение файл, скачанный по ссылке ниже
 
-{% file src="../.gitbook/assets/яндекс-расписания-api-тест.yml" %}
+{% file src="../../../../.gitbook/assets/яндекс-расписания-api-тест.yml" %}
