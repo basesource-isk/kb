@@ -197,27 +197,28 @@ name: "Стандартный тест rest-api на сервере 10.1.1.10"
 
 ### `pages`
 
+Перечень URL и параметров для тестирования, каждый элемент передается в виде списка значений.
 
+Тип параметра: `html`
 
-#### `pages:url`
+Список передаваемых значений:
 
+* `url`: путь к тестируемой странице, полный URL формируется добавлением этого значения к параметру `base url`;
+* `method`:
+* `value`:
+* `text`:
+* `click`:
 
+Пример:
 
-#### `pages:method`
-
-
-
-#### `pages:value`
-
-
-
-#### `pages:text`
-
-
-
-#### `pages:click`
-
-
+```yaml
+pages:
+  - url: page/login
+    method: tag
+    value: body
+    text: 
+    click: false
+```
 
 ### `server_ip`
 
