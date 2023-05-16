@@ -55,7 +55,7 @@ sudo git clone https://github.com/d-poletavkin/osscore-otester-docker.git
 * Перейти в директорию osscore-otester-docker
 
 ```
-sudo cd osscore-otester-docker
+cd osscore-otester-docker
 ```
 
 * Запустить развёртывание командой `docker-compose up`
