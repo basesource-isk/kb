@@ -1,6 +1,7 @@
 # Инструкция по развёртыванию на Windows 10
 
 * Установить Docker для Windows [https://www.docker.com/](https://www.docker.com/)
+* Установить Git если не установлен [https://git-scm.com/download/win](https://git-scm.com/download/win)
 * Запустить Docker на компьютере
 * Запустить терминал _Powershell_
 * Клонировать репозиторий с файлом _compose.yml_
