@@ -1,6 +1,4 @@
 base url: https://api.rasp.yandex.net/v3.0/search/?apikey=a13deeda-bb36-46db-bc97-ff97658b9031
-module: rest_api
-server_ip: 'yandex_rasp'
 urls:
   - url: '&from=c213&to=c75'
     method: get
