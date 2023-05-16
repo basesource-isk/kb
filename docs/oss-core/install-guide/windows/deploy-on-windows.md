@@ -22,6 +22,7 @@ cd osscore-otester-docker
 docker-compose up
 ```
 
+* Процесс развёртывания может занять около 2 минут. По окончанию в терминале появляется надпись `otester-client | Compiled Successfully`
 * Приложение появится в браузере на странице [http://localhost:](http://localhost:8000)4200
 * При запросе логина и пароля ввести следующие учётные данные
 
