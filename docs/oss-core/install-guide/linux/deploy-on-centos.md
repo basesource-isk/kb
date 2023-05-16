@@ -64,6 +64,7 @@ cd osscore-otester-docker
 sudo docker-compose up
 ```
 
+* Процесс развёртывания может занять около 2 минут. По окончанию в терминале появляется надпись `otester-client | Compiled Successfully`
 * Приложение появится в браузере на странице
 
 ```
