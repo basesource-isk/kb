@@ -1,4 +1,6 @@
-# Инструкция по развёртыванию на Windows 10
+# Инструкция по развёртыванию на Windows
+
+**Инструкция для установки рекомендуется для выполнения в среде ОС Window 10, однако на других версиях Windows последовательность установки аналогичная.**
 
 * Установить Docker для Windows [https://www.docker.com/](https://www.docker.com/)
 * Установить Git если не установлен [https://git-scm.com/download/win](https://git-scm.com/download/win)

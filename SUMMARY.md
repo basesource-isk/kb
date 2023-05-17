@@ -7,9 +7,9 @@
   * [Системные требования](docs/oss-core/system-requirements.md)
   * [Инструкция по установке](docs/oss-core/install-guide/README.md)
     * [Linux](docs/oss-core/install-guide/linux/README.md)
-      * [Инструкция по развёртыванию на CentOS 7](docs/oss-core/install-guide/linux/deploy-on-centos.md)
+      * [Инструкция по развёртыванию на Linux](docs/oss-core/install-guide/linux/deploy-on-centos.md)
     * [Windows](docs/oss-core/install-guide/windows/README.md)
-      * [Инструкция по развёртыванию на Windows 10](docs/oss-core/install-guide/windows/deploy-on-windows.md)
+      * [Инструкция по развёртыванию на Windows](docs/oss-core/install-guide/windows/deploy-on-windows.md)
   * [Руководство пользователя](docs/oss-core/user-guide.md)
   * [Руководство администратора](docs/oss-core/admin-guide.md)
 
