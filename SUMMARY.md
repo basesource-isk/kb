@@ -6,10 +6,9 @@
   * [Описание функциональных характеристик](docs/oss-core/features.md)
   * [Системные требования](docs/oss-core/system-requirements.md)
   * [Инструкция по установке](docs/oss-core/install-guide/README.md)
-    * [Linux](docs/oss-core/install-guide/linux/README.md)
-      * [Инструкция по развёртыванию на Linux](docs/oss-core/install-guide/linux/deploy-on-centos.md)
-    * [Windows](docs/oss-core/install-guide/windows/README.md)
-      * [Инструкция по развёртыванию на Windows](docs/oss-core/install-guide/windows/deploy-on-windows.md)
+    * [Виртуальная машина](docs/oss-core/install-guide/virtual-appliance.md)
+    * [Развёртывание на Linux](docs/oss-core/install-guide/deploy-on-linux.md)
+    * [Развёртывание на Windows](docs/oss-core/install-guide/deploy-on-windows.md)
   * [Руководство пользователя](docs/oss-core/user-guide.md)
   * [Руководство администратора](docs/oss-core/admin-guide.md)
 
