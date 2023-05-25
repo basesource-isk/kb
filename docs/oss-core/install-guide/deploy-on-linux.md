@@ -2,7 +2,9 @@
 
 Инструкция для установки на операционную систему семейства Linux.
 
-Рекомендуется для выполнения в среде ОС Centos 7, однако на других версиях Linux последовательность установки аналогичная.
+Рекомендуется для выполнения в среде ОС Centos, однако на других версиях Linux последовательность установки аналогичная.
+
+#### **Установка Docker:**
 
 * Установить docker
 
@@ -50,7 +52,11 @@ sudo yum install -y git
 sudo systemctl start docker
 ```
 
-* Клонировать репозиторий с файлом _compose.yml_
+#### **Установка OSS Core:**
+
+Загрузить файл со сценарием установки docker-_compose.yml:_
+
+{% file src="../../../.gitbook/assets/docker-compose.yml" %}
 
 ```
 sudo git clone https://github.com/d-poletavkin/osscore-otester-docker.git

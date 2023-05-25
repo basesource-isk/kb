@@ -23,10 +23,7 @@
 
 В верхней части интерфейса доступны кнопки для выполнения следующих операций:
 
-| ![](<../../.gitbook/assets/add-test (1).png>) | Добавить файл              |
-| :-------------------------------------------: | -------------------------- |
-|   ![](../../.gitbook/assets/delete-test.png)  | Удалить отмеченные тесты   |
-|    ![](../../.gitbook/assets/run-tests.png)   | Запустить отмеченные тесты |
+<table data-header-hidden><thead><tr><th width="83" align="center"></th><th></th></tr></thead><tbody><tr><td align="center"><img src="../../.gitbook/assets/add-test (1).png" alt=""></td><td>Добавить файл</td></tr><tr><td align="center"><img src="../../.gitbook/assets/delete-test.png" alt=""></td><td>Удалить отмеченные тесты</td></tr><tr><td align="center"><img src="../../.gitbook/assets/run-tests.png" alt=""></td><td>Запустить отмеченные тесты</td></tr></tbody></table>
 
 В основной части отображается перечень загруженных тестов, включая следующую информацию:
 
