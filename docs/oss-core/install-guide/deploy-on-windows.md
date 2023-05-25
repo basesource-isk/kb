@@ -14,18 +14,16 @@
 
 #### **Установка OSS Core:**
 
-Загрузить файл со сценарием установки docker-_compose.yml:_
+Загрузить файл со сценарием установки docker-_compose.yml одним из способов:_
+
+1. Ссылка на загрузку:
 
 {% file src="../../../.gitbook/assets/docker-compose.yml" %}
 
-```
-git clone https://github.com/d-poletavkin/osscore-otester-docker.git
-```
-
-* Перейти в директорию _osscore-otester-docker_
+2. Загрузка через git:
 
 ```
-cd osscore-otester-docker
+git clone https://github.com/d-poletavkin/osscore-otester-docker.git && cd osscore-otester-docker
 ```
 
 * Запустить развёртывание командой `docker-compose up`

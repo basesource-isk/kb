@@ -54,18 +54,16 @@ sudo systemctl start docker
 
 #### **Установка OSS Core:**
 
-Загрузить файл со сценарием установки docker-_compose.yml:_
+* Загрузить файл со сценарием установки docker-_compose.yml одним из способов:_
+
+1. Ссылка на загрузку:
 
 {% file src="../../../.gitbook/assets/docker-compose.yml" %}
 
-```
-sudo git clone https://github.com/d-poletavkin/osscore-otester-docker.git
-```
-
-* Перейти в директорию osscore-otester-docker
+2. Загрузка через git:
 
 ```
-cd osscore-otester-docker
+sudo git clone https://github.com/d-poletavkin/osscore-otester-docker.git && cd osscore-otester-docker
 ```
 
 * Запустить развёртывание командой `docker-compose up`
