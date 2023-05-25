@@ -19,6 +19,7 @@
     * [Регламент технической поддержки 9x5](support/technical-support/terms/9x5.md)
     * [Регламент технической поддержки 24x7](support/technical-support/terms/24x7.md)
   * [Процесс поддержания жизненного цикла программного обеспечения](support/technical-support/process.md)
+  * [Описание технических средств хранения исходного текста и объектного кода программного обеспечения](support/technical-support/opisanie-tekhnicheskikh-sredstv-khraneniya-iskhodnogo-teksta-i-obektnogo-koda-programmnogo-obespeche.md)
 
 ***
 
