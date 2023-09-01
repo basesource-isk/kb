@@ -109,6 +109,26 @@
 
 ### Загрузка проекта через Gitlab при помощи Webhooks
 
+#### Добавление токена развёртывания (deploy token) к проекту
+
+В репозитории проекта Gitlab зайти на страницу настроек репозитория
+
+![](<../../.gitbook/assets/image (6).png>)
+
+Развернуть пункт Deploy tokens
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+Указать описательное (любое) имя, выбрать пункт "_read\_repository"_ и нажать "_Create deploy token"_
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+После создания выше появится форма с именем пользователя токена и самим токеном. Токен больше никде не будет показываться и его нельзя будет восстановить, поэтому скопируйте его куда-нибудь. Эти данные понадобятся для добавления в приложение **otester**
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+#### Добавление адреса к веб-крючкам (webhooks) репозитория
+
 В репозитории проекта Gitlab зайти на страницу подключения Webhooks
 
 ![](<../../.gitbook/assets/image (1).png>)
