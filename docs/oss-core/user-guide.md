@@ -127,6 +127,25 @@
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
+#### Добавление токена развёртывания в otester
+
+Для того, чтобы добавить токен развёртывания, перейдите на страницу _"Токены приложений VU"_
+
+![](<../../.gitbook/assets/image (10).png>)
+
+Разверните форму нажатием на кнопку "Добавить токен" и укажите данные:
+
+* Тип токена - в данном случае _"Deploy token"_
+*   Имя проекта - имя проекта Gitlab, так как указано в Gitlab
+
+    <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+* Имя пользователя токена - то имя пользователя, которое появлялось при создании токена [#dobavlenie-tokena-razvyortyvaniya-deploy-token-k-proektu](user-guide.md#dobavlenie-tokena-razvyortyvaniya-deploy-token-k-proektu "mention")
+* Токен - это токен, который появлялся при создании токена [#dobavlenie-tokena-razvyortyvaniya-deploy-token-k-proektu](user-guide.md#dobavlenie-tokena-razvyortyvaniya-deploy-token-k-proektu "mention")
+
+Нажмите кнопку _"Сохранить"_
+
+Всё, токен добавлен. Теперь при обращении к **otester** через веб-крючок будет использоваться этот токен
+
 #### Добавление адреса к веб-крючкам (webhooks) репозитория
 
 В репозитории проекта Gitlab зайти на страницу подключения Webhooks
