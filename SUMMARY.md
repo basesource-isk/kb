@@ -11,6 +11,10 @@
     * [Развёртывание на Windows](docs/oss-core/install-guide/deploy-on-windows.md)
   * [Руководство пользователя](docs/oss-core/user-guide.md)
   * [Руководство администратора](docs/oss-core/admin-guide.md)
+* [OSS Core SV](docs/oss-core-sv/README.md)
+  * [Руководство по установке](https://kb.pvhostvm.ru/hostvm/installation-guide)
+* [OSS Core VDI](docs/oss-core-vdi/README.md)
+  * [Руководство по установке](https://kb.pvhostvm.ru/hostvm-vdi/hostvm-vdi-installation-guide)
 
 ## Сопровождение <a href="#support" id="support"></a>
 
