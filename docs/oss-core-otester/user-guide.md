@@ -105,7 +105,7 @@
 
 ### Загрузка проекта в ручную
 
-Операция загрузки проекта вручную очевидна - нужно нажать на иконку папки <img src="../../.gitbook/assets/image.png" alt="" data-size="line">, выбрать папку с проектом у себя на компьютере и дождаться завершения загрузки
+Операция загрузки проекта вручную очевидна - нужно нажать на иконку папки <img src="../../.gitbook/assets/image (8).png" alt="" data-size="line">, выбрать папку с проектом у себя на компьютере и дождаться завершения загрузки
 
 ### Загрузка проекта через Gitlab при помощи Webhooks
 
@@ -113,15 +113,15 @@
 
 В репозитории проекта Gitlab зайти на страницу настроек репозитория
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 Развернуть пункт Deploy tokens
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Указать описательное (любое) имя, выбрать пункт "_read\_repository"_ и нажать "_Create deploy token"_
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 После создания выше появится форма с именем пользователя токена и самим токеном. Токен больше никде не будет показываться и его нельзя будет восстановить, поэтому скопируйте его куда-нибудь. Эти данные понадобятся для добавления в приложение **otester**
 
@@ -150,21 +150,21 @@
 
 В репозитории проекта Gitlab зайти на страницу подключения Webhooks
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 В поле URL ввести адрес, в виде&#x20;
 
 `http://[ip-адрес, на котором развёрнут otester]:5000/api/webhooks/vu/`
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ниже выбрать событие, при наступлении которого будет выполняться запрос на указанный выше адрес, например можно указать событие **push**. В нашем случае при запросе будет выполняться выгрузка проекта в **otester**.
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 Отключить проверку SSL и нажать кнопку **Add webhook**
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 Всё, теперь при выполнении команды `git push` будет выполняться отправка проекта в **otester** и его проверка. Проект появится на странице "Проверка уязвимостей"
 
