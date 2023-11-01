@@ -2,19 +2,21 @@
 
 ## Документация <a href="#docs" id="docs"></a>
 
-* [OSS Core](README.md)
-  * [Описание функциональных характеристик](docs/oss-core/features.md)
-  * [Системные требования](docs/oss-core/system-requirements.md)
-  * [Инструкция по установке](docs/oss-core/install-guide/README.md)
-    * [Виртуальная машина](docs/oss-core/install-guide/virtual-appliance.md)
-    * [Развёртывание на Linux](docs/oss-core/install-guide/deploy-on-linux.md)
-    * [Развёртывание на Windows](docs/oss-core/install-guide/deploy-on-windows.md)
-  * [Руководство пользователя](docs/oss-core/user-guide.md)
-  * [Руководство администратора](docs/oss-core/admin-guide.md)
-* [OSS Core SV](docs/oss-core-sv/README.md)
-  * [Руководство по установке](https://kb.pvhostvm.ru/hostvm/installation-guide)
-* [OSS Core VDI](docs/oss-core-vdi/README.md)
-  * [Руководство по установке](https://kb.pvhostvm.ru/hostvm-vdi/hostvm-vdi-installation-guide)
+* [OSS Core Virtualization](README.md)
+  * [Apps & Desktops Virtualization](docs/oss-core-virtualization/apps-and-desktops-virtualization/README.md)
+    * [Руководство по установке](https://kb.pvhostvm.ru/hostvm-vdi/hostvm-vdi-installation-guide)
+  * [Server Virtualization](docs/oss-core-virtualization/server-virtualization/README.md)
+    * [Руководство по установке](https://kb.pvhostvm.ru/hostvm/installation-guide)
+* [OSS Core oTester](docs/oss-core-otester/README.md)
+  * [Описание функциональных характеристик](docs/oss-core-otester/features.md)
+  * [Системные требования](docs/oss-core-otester/system-requirements.md)
+  * [Инструкция по установке](docs/oss-core-otester/install-guide/README.md)
+    * [Виртуальная машина](docs/oss-core-otester/install-guide/virtual-appliance.md)
+    * [Развёртывание на Linux](docs/oss-core-otester/install-guide/deploy-on-linux.md)
+    * [Развёртывание на Windows](docs/oss-core-otester/install-guide/deploy-on-windows.md)
+    * [Yandex Cloud](docs/oss-core-otester/install-guide/yandex-cloud.md)
+  * [Руководство пользователя](docs/oss-core-otester/user-guide.md)
+  * [Руководство администратора](docs/oss-core-otester/admin-guide.md)
 
 ## Сопровождение <a href="#support" id="support"></a>
 
