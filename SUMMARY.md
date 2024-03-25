@@ -3,10 +3,8 @@
 ## Документация <a href="#docs" id="docs"></a>
 
 * [OSS Core HOSTVM](README.md)
-  * [Apps & Desktops Virtualization](docs/oss-core-hostvm/apps-and-desktops-virtualization/README.md)
-    * [Руководство по установке](https://kb.pvhostvm.ru/hostvm-vdi/hostvm-vdi-installation-guide)
-  * [Server Virtualization](docs/oss-core-hostvm/server-virtualization/README.md)
-    * [Руководство по установке](https://kb.pvhostvm.ru/hostvm/installation-guide)
+  * [Системные требования](docs/oss-core-hostvm/sistemnye-trebovaniya.md)
+  * [Руководство по установке и настройке](docs/oss-core-hostvm/rukovodstvo-po-ustanovke-i-nastroike.md)
 * [OSS Core Security Tester](docs/oss-core-security-tester/README.md)
   * [Описание функциональных характеристик](docs/oss-core-security-tester/features.md)
   * [Системные требования](docs/oss-core-security-tester/system-requirements.md)

@@ -1,2 +1,0 @@
-# OSS Core VDI
-
