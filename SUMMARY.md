@@ -3,8 +3,11 @@
 ## Документация <a href="#docs" id="docs"></a>
 
 * [OSS Core HOSTVM](README.md)
+  * [Описание функциональных характеристик](docs/oss-core-hostvm/opisanie-funkcionalnykh-kharakteristik.md)
   * [Системные требования](docs/oss-core-hostvm/sistemnye-trebovaniya.md)
   * [Руководство по установке и настройке](docs/oss-core-hostvm/rukovodstvo-po-ustanovke-i-nastroike.md)
+  * [Руководство пользователя](docs/oss-core-hostvm/rukovodstvo-polzovatelya.md)
+  * [Руководство администратора](docs/oss-core-hostvm/rukovodstvo-administratora.md)
 * [OSS Core Security Tester](docs/oss-core-security-tester/README.md)
   * [Описание функциональных характеристик](docs/oss-core-security-tester/features.md)
   * [Системные требования](docs/oss-core-security-tester/system-requirements.md)
