@@ -18,6 +18,12 @@
     * [Yandex Cloud](docs/oss-core-security-tester/install-guide/yandex-cloud.md)
   * [Руководство пользователя](docs/oss-core-security-tester/user-guide.md)
   * [Руководство администратора](docs/oss-core-security-tester/admin-guide.md)
+* [OSS Core OpenUDS](docs/oss-core-openuds/README.md)
+  * [Описание функциональных характеристик](docs/oss-core-openuds/opisanie-funkcionalnykh-kharakteristik.md)
+  * [Системные требования](docs/oss-core-openuds/sistemnye-trebovaniya.md)
+  * [Руководство по установке и настройке](docs/oss-core-openuds/rukovodstvo-po-ustanovke-i-nastroike.md)
+  * [Руководство пользователя](docs/oss-core-openuds/rukovodstvo-polzovatelya.md)
+  * [Руководство администратора](docs/oss-core-openuds/rukovodstvo-administratora.md)
 
 ## Сопровождение <a href="#support" id="support"></a>
 
